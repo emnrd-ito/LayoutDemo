@@ -127,6 +127,15 @@
                 android:src="@drawable/ic_phone_enabled" />
 
             <ImageButton
+                android:id="@+id/blank_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_row="5"
+                android:background="@null"
+                android:src="@drawable/ic_blank" />
+
+            <ImageButton
                 android:id="@+id/voip_image"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
